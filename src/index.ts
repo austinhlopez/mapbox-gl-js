@@ -28,6 +28,8 @@ import {FreeCameraOptions} from './ui/free_camera';
 import {getDracoUrl, setDracoUrl, setMeshoptUrl, getMeshoptUrl} from '../3d-style/util/loaders';
 import browser from './util/browser';
 
+import VectorTileSource from './source/vector_tile_source';
+
 import type {Class} from './types/class';
 
 // Explicit type re-exports
@@ -97,6 +99,7 @@ const exported = {
     MercatorCoordinate,
     FreeCameraOptions,
     Evented,
+    VectorTileSource,
     config,
     /**
      * Initializes resources like WebWorkers that can be shared across maps to lower load
